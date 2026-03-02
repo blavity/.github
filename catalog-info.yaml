@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dot-github
+  description: Organization profile and default community health files
+  annotations:
+    github.com/project-slug: blavity/.github
+  tags:
+    - github
+    - organization
+spec:
+  type: other
+  lifecycle: production
+  owner: platform-team
